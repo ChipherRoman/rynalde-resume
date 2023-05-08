@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rynalde Silva Serejo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- The best instructor ever is 2664fa135678600b0995c6dc41e1b767 -->
+      <h1>Rynalde Silva Serejo</h1>
+      <h2>There's no place like 127.0.0.1</h2>
+      <div class="sub-head">
+        <p>1840 W. Emelita Avenue, Mesa, AZ 85202</p>
+        <p>|</p>
+        <p>
+          <a href="mailto:contact@rynalde.com"> contact@rynalde.com </a>
+        </p>
+        <p>|</p>
+        <p>602-723-8080</p>
+      </div>
+    </header>
+    <main>
+      <blockquote>
+        "I am so clever that sometimes I don't understand a single word of what
+        I am saying."
+        <br />
+        - Oscar Wilde
+      </blockquote>
+      <blockquote>
+        "I always wanted to be somebody, but now I realize I should have been
+        more specific."
+        <br />
+        - Lily Tomlin
+      </blockquote>
+      <section>
+        <h2>Summary of Qualifications</h2>
+        <ul>
+          <li>Organized, and good time manager.</li>
+          <li>Efficient worker, quick learner, and self-motivated.</li>
+          <li>Good written and verbal communication skills.</li>
+          <li>Ability to work alone and as a cooperative with teams.</li>
+          <li>Flexible, with the ability to learn new skills quickly.</li>
+          <li>Ability to work in a fast-paced environment.</li>
+          <li>Creative, resourceful, and able to work independently.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="education-logo-section">
+          <img
+            width="300"
+            src="https://www.mesacc.edu/sites/all/themes/mesaccnew/images/logo.svg"
+          />
+          <img
+            width="100"
+            src="https://scontent.fphx1-1.fna.fbcdn.net/v/t39.30808-1/271260677_473512714348631_2337119548838597828_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=111&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=ALH-d9rH9b8AX9RrspM&_nc_ht=scontent.fphx1-1.fna&oh=00_AfCWKC_4Sj-_PTtCKE6k8rkExAnM2nHZLGnKhbnxPhP_rg&oe=645E6A2B"
+          />
+          <img
+            width="200"
+            src="http://web.iema.ma.gov.br/seletivo2023/pages/img/logoiema.png"
+          />
+        </div>
+        <ul>
+          <li>
+            Cyber Security |
+            <a href="https://www.mesacc.edu/">Mesa Community College</a> – Mesa,
+            AZ | Expected graduation in May 2023
+          </li>
+          <li>
+            Bachelor's Degree in Computer Engineering | IFMA – Santa Ines – MA,
+            Brazil | Expected graduation in December 2026
+          </li>
+          <li>
+            High School Diploma | IEMA – Pindare Mirim, MA, Brazil | December
+            2020
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Professional Experience</h2>
+        <ul>
+          <li>
+            <h3>
+              <strong>
+                Junior Software Developer | Dysoft – Rio de Janeiro, Brazil |
+                February 2021 to June 2022
+              </strong>
+            </h3>
+            <ul>
+              <li>
+                Developed native Android applications and frameworks using
+                Kotlin and Java.
+              </li>
+              <li>
+                Defined and implemented robust app architectures and complex
+                user interfaces.
+              </li>
+              <li>
+                Applied expert knowledge of Android system frameworks to solve
+                novel problems.
+              </li>
+              <li>
+                Collaborated with designers, engineers, and product managers to
+                build great experiences.
+              </li>
+              <li>
+                Performed technical designs and implementation of a complex iOS
+                app and framework.
+              </li>
+              <li>
+                Reviewed client requirements, wireframes, and designs for
+                technical feasibility.
+              </li>
+              <li>
+                Ability to develop and implement complex UI using both SwiftUI
+                and UIKit
+              </li>
+              <li>
+                Used understanding of React fundamentals to promote better
+                component lifecycle practices, increasing turnaround speed by
+                23% with 100% deadline adherence.
+              </li>
+              <li>
+                Introduced wider use of isomorphic React and Node.js for web
+                applications, decreasing load times by roughly 35%.
+              </li>
+              <li>
+                Followed documentation to always remain up-to-speed on what
+                needs to be updated in response to new release versions.
+              </li>
+              <li>
+                Ability to provide feedback that is both constructive and
+                positive.
+              </li>
+              <li>Delegate and empower others.</li>
+              <li>Build consensus and gain buy-in from others.</li>
+              <li>The ability to build relationships and networks.</li>
+              <li>Think strategically.</li>
+              <li>Lead projects and team management</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Chat</h2>
+        <div class="chat-container">
+          <div class="chat-messages">
+            <!-- Messages will be displayed here -->
+          </div>
+          <form class="chat-form">
+            <input id="chat-name" type="text" placeholder="Your name" />
+            <input
+              id="chat-text"
+              type="text"
+              placeholder="Type your message..."
+            />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script>
+      var nameInput = document.getElementById("chat-name");
+      nameInput.value = "Guest" + Math.floor(Math.random() * 1000);
+    </script>
+  </body>
+  <!-- JavaScript code for handling the chat messages -->
+  <script type="module" src="chat.js"></script>
+</html>
